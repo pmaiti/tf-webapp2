@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/8b81614d-8d62-44d7-a849-a251497aa620/resourceGroups/tf-rg-mighty2/providers/microsoft.insights/components/tf-appinsight-mighty</ApplicationInsightsResourceId>
+    <UserSecretsId>4abd3082-fc6a-4711-b1c9-88b864263ff3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
